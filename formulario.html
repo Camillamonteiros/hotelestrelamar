@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Formulário Hotel</title>
 </head>
+
 <body>
-    <h1>Formulário de Reserva de Hotel</h1>
-    <form action="" method="POST">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br>
+    <div class="text" id="cbform">
+        <span class="textdecorado">
+            <h1>Reserva de Hotel</h1>
+        </span>
+    </div>
+    <div class="formulario">
+        <form action="" method="POST">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
 
-        <label>Sexo:</label><br>
-        <input type="radio" id="masculino" name="sexo" value="masculino" required>
-        <label for="masculino">Masculino</label>
-        <input type="radio" id="feminino" name="sexo" value="feminino" required>
-        <label for="feminino">Feminino</label>
-        <input type="radio" id="outro" name="sexo" value="outro" required>
-        <label for="outro">Outro</label><br>
+            <label>Sexo:</label><br>
+            <input type="radio" id="masculino" name="sexo" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="outro" name="sexo" value="outro" required>
+            <label for="outro">Outro</label><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
 
-        <label for="data-chegada">Data de Chegada:</label><br>
-        <input type="date" id="data-chegada" name="data-chegada" required><br>
+            <label for="data-chegada">Data de Chegada:</label><br>
+            <input type="date" id="data-chegada" name="data-chegada" required><br>
 
-        <label for="numnoites">Número de Noites:</label><br>
-        <input type="number" id="num-noites" name="num-noites" required><br>
+            <label for="numnoites">Número de Noites:</label><br>
+            <input type="number" id="num-noites" name="num-noites" required><br>
 
-        <label for="numhospedes">Número de Hóspedes:</label><br>
-        <input type="number" id="num-hospedes" name="num-hospedes" required><br>
+            <label for="numhospedes">Número de Hóspedes:</label><br>
+            <input type="number" id="num-hospedes" name="num-hospedes" required><br>
 
-        <label for="total-estimado">Total Estimado:</label><br>
-        <input type="text" id="total-estimado" name="total-estimado"><br>
+            <label for="total-estimado">Total Estimado:</label><br>
+            <input type="text" id="total-estimado" name="total-estimado"><br>
 
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
 
-        <label for="newsletter">Desejo receber informações por e-mail:</label><br>
-        <input type="checkbox" id="newsletter" name="newsletter" value="sim">
-        <label for="newsletter">Sim</label><br><br>
+            <label for="newsletter">Desejo receber informações por e-mail:</label><br>
+            <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+            <label for="newsletter">Sim</label><br><br>
 
-        <input type="submit" value="Enviar">
-    
+            <input type="submit" value="Enviar">
+    </div>
+
 </body>
+
 </html>

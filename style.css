@@ -11,6 +11,19 @@ header {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    display:flex;
+    align-items: center;
+    margin-left:none;
+}
+
+h1{
+    margin: 10;
+    padding-left: 10px;
+}
+
+.logo{
+    position: absolute;
+    right: 0;
 }
 
 nav {
@@ -23,6 +36,7 @@ nav a {
     text-decoration: none;
     color: #333;
     padding: 10px 20px;
+   
 }
 nav a:hover {
     background-color: #ddd;
@@ -50,6 +64,11 @@ button{
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: none;
+    margin-left: 500px;
+}
+a{
+    text-decoration: none;
 }
 button:active {
     background-color: #cdf3ce;
@@ -61,6 +80,7 @@ button:active {
     border-collapse: collapse;
     padding: 8px;
     text-align: center;
+    margin-left: 120px;
 }
 .tpacotes th{
     background-color: #333;
@@ -77,8 +97,38 @@ button:active {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    margin-left: 120px;
+
 }
 footer {
     background-color: #333;
     color: #fff;
+}
+.text{
+    text-align: center;
+    color: #333;  
+}
+.formulario {
+    background-color: #fff;
+    text-align: center;
+}
+.button{
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+}
+#cbform{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.textdecorado{
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
 }
