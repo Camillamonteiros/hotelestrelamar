@@ -9,8 +9,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    padding: 70px 0;
     display:flex;
     align-items: center;
     margin-left:none;
@@ -41,32 +40,52 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
-.sobre {
+.sobre, .serviços, .reservas{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.serviços, .serviços {
     padding: 20px 0;
 }
-.serviços {
-    padding: 20px 0;
+
+.serviços h2 {
+    margin-bottom: 20px; 
+}
+
+.serviços ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.serviços ul li {
+    margin-bottom: 10px; 
+}
+.ml-md-3 {
+    margin-left: 18rem; 
 }
 button{
     height: 100%;
-    background-color: #ddd;
     border: none;
     color: white;
     text-align: center;
-    text-decoration: none;
     padding: 20px 40px;
     display: flex;
-    font-size: 16px;
     margin: 4px 2px;
     justify-items: center;
     cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;;
     float: none;
-    margin-left: 500px;
+    margin: 0 auto;
+    padding-left: 20px;
 }
+.button-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
 a{
     text-decoration: none;
 }
@@ -74,6 +93,18 @@ button:active {
     background-color: #cdf3ce;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
+.imagens {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.imagens img {
+    margin: 10px; /* Adiciona espaçamento entre as imagens */
+}
+
+
 .tpacotes {
     border: 1px solid #333;
     width: 80%;
@@ -89,17 +120,6 @@ button:active {
 .tpacotes tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-.imagens{
-    margin:0 auto;
-    align-items: center;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    margin-left: 120px;
-
-}
 footer {
     background-color: #333;
     color: #fff;
@@ -109,8 +129,7 @@ footer {
     color: #333;  
 }
 .formulario {
-    background-color: #fff;
-    text-align: center;
+    background-color: #efeeee;
 }
 .button{
     position: relative;
